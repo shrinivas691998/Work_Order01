@@ -25,7 +25,6 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
-
 // Add SQL Server configuration
 builder.Services.AddSingleton<IDbConnection>(sp =>
 {
